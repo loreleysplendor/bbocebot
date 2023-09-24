@@ -15,8 +15,15 @@ Then activate the virtual environment with:
 ```$ ./venv/Scripts/activate```
 
 Install pip packages:
-```$ python3 -m pip install -r requirements.txt```
+```$  pip3 install -r requirements.txt```
 
 Set the discord api token in the .env file.
 
 ## Running the discord bot:
+
+You need to create a `.env` file in the working directory. You then need to add the `DISCORD_API_TOKEN` key and value. You'll have to ask David for a test token or use your own.
+
+After the `.env` is setup, run the discord bot with the following:
+```$ ./venv/Scripts/python.exe main.py```
+
+Stop the bot from running by hitting: `CTRL + C` in the console.
